@@ -5,7 +5,7 @@
             "'literally anything'"
         ],
         "response": {
-            "message": "<p>Awesome, you're trying out your own experiments!\nThat's a great sign. Keep it up.\nJust letting you know that you do need to eventually type <code>1+2</code> for the book to move forward.</p>",
+            "message": "<p>\u7d20\u6674\u3089\u3057\u3044\u3001\u81ea\u5206\u3067\u8272\u3005\u8a66\u3057\u3066\u307f\u3066\u3044\u308b\u3093\u3067\u3059\u306d\uff01\n\u3068\u3066\u3082\u826f\u3044\u5146\u5019\u3067\u3059\u3002\u305d\u306e\u8abf\u5b50\u3067\u7d9a\u3051\u3066\u304f\u3060\u3055\u3044\u3002\n\u305f\u3060\u3057\u3001\u5148\u306b\u9032\u3080\u306b\u306f\u6700\u7d42\u7684\u306b <code>1+2</code> \u3092\u5165\u529b\u3059\u308b\u5fc5\u8981\u304c\u3042\u308b\u3053\u3068\u3092\u304a\u77e5\u3089\u305b\u3057\u3066\u304a\u304d\u307e\u3059\u3002</p>",
             "passed": false,
             "result": [
                 {
@@ -39,7 +39,7 @@
             "3 x 4"
         ],
         "response": {
-            "message": "<p>I see an 'x'. If you're trying to multiply, use an asterisk, e.g:</p>\n<pre><code class=\"codehilite\"><span><span class=\"mi\">3</span> <span class=\"o\">*</span> <span class=\"mi\">4</span>\n</span></code></pre>",
+            "message": "<p>\u300cx\u300d\u304c\u898b\u3048\u307e\u3059\u306d\u3002\u639b\u3051\u7b97\u3092\u3057\u305f\u3044\u5834\u5408\u306f\u3001\u82f1\u5b57\u306e x \u3067\u306f\u306a\u304f\u30a2\u30b9\u30bf\u30ea\u30b9\u30af <code>*</code> \u3092\u4f7f\u3063\u3066\u304f\u3060\u3055\u3044\u3002\u4f8b\u3048\u3070\uff1a</p>\n<pre><code class=\"codehilite\"><span><span class=\"mi\">3</span> <span class=\"o\">*</span> <span class=\"mi\">4</span>\n</span></code></pre>",
             "passed": false,
             "result": [
                 {

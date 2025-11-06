@@ -4,24 +4,25 @@ from textwrap import dedent
 
 from core.text import MessageStep, Page, Step, VerbatimStep, search_ast
 
+# ...existing code...
 
 class IntroducingTheShell(Page):
     class first_expression(VerbatimStep):
         """
-On the right is the *shell*. This is a place for running small bits of Python code. Just type in some code, press enter, and it'll run! Try it now:
+右側にあるのが*シェル*です。これは小さなPythonコードを実行する場所です。コードを入力してEnterキーを押すと、すぐに実行されます。今試してみましょう：
 
-1. Click anywhere on the shell (the black area).
-2. Type `__program__`
-3. Press the Enter key on your keyboard.
+1. シェル（黒い領域）をクリックします。
+2. `__program__` と入力します。
+3. キーボードの Enter キーを押します。
         """
 
         program = "1+2"
 
         class anything_else(MessageStep):
             """
-            Awesome, you're trying out your own experiments!
-            That's a great sign. Keep it up.
-            Just letting you know that you do need to eventually type `1+2` for the book to move forward.
+            素晴らしい、自分で色々試してみているんですね！
+            とても良い兆候です。その調子で続けてください。
+            ただし、先に進むには最終的に `1+2` を入力する必要があることをお知らせしておきます。
             """
 
             program = "'literally anything'"
@@ -31,21 +32,21 @@ On the right is the *shell*. This is a place for running small bits of Python co
 
     class more_calculation(Step):
         """
-Great! Python evaluated `1+2` and got the result `3`, so the shell displays that.
+素晴らしい！Pythonは `1+2` を評価して `3` という結果を返し、シェルはその結果を表示しました。
 
-The shell is probably your most important tool for learning Python, and you should spend lots of time experimenting and exploring in it. Be curious! Constantly ask yourself "What would happen if I ran X?" and then immediately answer that question by running it. Never be scared to try something out - if you get something wrong, nothing bad will happen.
+シェルはおそらくPythonを学ぶ上で最も重要なツールです。ここではたくさん実験して、幅広く使いこなしてください。常に「もし X を実行したらどうなるだろう？」と自問し、それをすぐに試して答え合わせをしましょう。何か間違っても怖がる必要はありません — 万一間違っても悪いことは起きません。
 
-Try doing some more calculations now. You can multiply numbers with `*`, divide with `/`, and subtract with `-`. You can also use parentheses, i.e. `(` and `)`.
+今度はさらに計算をしてみましょう。掛け算は `*`、割り算は `/`、引き算は `-` を使います。括弧 `(`  `)` も使えます。
         """
 
-        requirements = "Run code in the shell similar to `1 + 2`, but instead of `+`, use `*`, `/`, or `-`."
+        requirements = "シェルで `1 + 2` のような計算を実行してください。ただし `+` の代わりに `*`、`/`、または `-` を使ってください。"
 
         program = "5 - 6"
 
         class special_messages:
             class multiply_with_x:
                 """
-                I see an 'x'. If you're trying to multiply, use an asterisk, e.g:
+                「x」が見えますね。掛け算をしたい場合は、英字の x ではなくアスタリスク `*` を使ってください。例えば：
 
                     3 * 4
                 """
@@ -60,11 +61,12 @@ Try doing some more calculations now. You can multiply numbers with `*`, divide 
                     return self.special_messages.multiply_with_x
 
     final_text = """
-Excellent! Keep experimenting. When you're ready, click 'Next' to continue.
+いいですね！引き続き実験を続けてください。準備ができたら「次へ」をクリックして進んでください。
 """
 
 
 class NavigatingShellHistory(Page):
     final_text = """
-Here's a tip: often you will want to re-run a previously entered bit of code, or a slightly modified version of it. You can copy and paste, but that's tedious and gets in the way of experimenting. A better method is to press the Up Arrow key on your keyboard. This will insert the previous line of code into the shell. Keep pressing it to go further back in your history, and if you go too far, press the Down Arrow key to go the other way. Try using it now.
+ヒント：以前入力したコードや少し修正したコードを再実行したくなることがよくあります。コピー＆ペーストでもできますが、面倒で実験の邪魔になります。より良い方法はキーボードの上矢印キー（Up Arrow）を押すことです。これで直前に入力した行がシェルに挿入されます。さらに過去に遡りたい場合は何度も押し、行き過ぎたら下矢印キー（Down Arrow）で戻れます。今試してみてください。
     """
+# ...existing code...
