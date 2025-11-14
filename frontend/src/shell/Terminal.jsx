@@ -74,7 +74,7 @@ export default class Terminal extends Component {
   showWelcomeMessage() {
     const msg = this.props.welcomeMessage;
 
-    if (typeof msg === 'boolean') this.pushToStdout('Welcome to the React terminal! Type \'help\' to get a list of commands.');
+    if (typeof msg === 'boolean') this.pushToStdout("Reactターミナルへようこそ！コマンド一覧を見るには 'help' と入力してください。");
     else if (Array.isArray(msg)) msg.map(item => this.pushToStdout(item));
     else this.pushToStdout(msg)
   }
