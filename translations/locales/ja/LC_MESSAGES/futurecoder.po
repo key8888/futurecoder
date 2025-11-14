@@ -1,0 +1,248 @@
+# Japanese translations for futurecoder UI
+msgid ""
+msgstr ""
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "frontend.stop"
+msgstr "停止"
+
+msgid "frontend.run"
+msgstr "実行"
+
+msgid "frontend.ask_for_help"
+msgstr "助けを求める"
+
+msgid "frontend.question_wizard"
+msgstr "質問ウィザード"
+
+msgid "frontend.previous"
+msgstr "前へ"
+
+msgid "frontend.next"
+msgstr "次へ"
+
+msgid "frontend.table_of_contents"
+msgstr "目次"
+
+msgid "frontend.skip_step"
+msgstr "ステップをスキップ"
+
+msgid "frontend.reverse_step"
+msgstr "ステップを戻す"
+
+msgid "frontend.sign_out"
+msgstr "サインアウト"
+
+msgid "frontend.settings"
+msgstr "設定"
+
+msgid "frontend.feedback"
+msgstr "フィードバック"
+
+msgid "frontend.developer_mode"
+msgstr "開発者モード"
+
+msgid "frontend.developer_mode_description"
+msgstr "「ステップを戻す」と「ステップをスキップ」のボタンを有効にします。"
+
+msgid "frontend.loading_wait"
+msgstr "読み込み中..."
+
+msgid "frontend.login_or_sign_up"
+msgstr "ログイン / 登録"
+
+msgid "frontend.error_traceback"
+msgstr "エラーのトレースバック:"
+
+msgid "frontend.did_you_mean"
+msgstr "もしかして..."
+
+msgid "frontend.similar_frames_skipped"
+msgstr "類似したフレームを省略:"
+
+msgid "frontend.internal_error_start"
+msgstr "おっと、問題が発生しました! ${maybeErrorReported} 次のことを試してください:"
+
+msgid "frontend.error_has_been_reported"
+msgstr "このエラーは報告されました。"
+
+msgid "frontend.try_running_code_again"
+msgstr "もう一度コードを実行してみてください。"
+
+msgid "frontend.refresh_and_try_again"
+msgstr "ページを再読み込みしてからもう一度試してください。"
+
+msgid "frontend.try_using_different_browser"
+msgstr "別のブラウザを試してください。"
+
+msgid "frontend.give_feedback_from_menu"
+msgstr "左上のメニューからフィードバックを送ってください。"
+
+msgid "frontend.click_for_error_details"
+msgstr "クリックしてエラーの詳細を表示"
+
+msgid "frontend.give_feedback"
+msgstr "フィードバックを送る"
+
+msgid "frontend.feedback_email_placeholder"
+msgstr "メールアドレス (任意)"
+
+msgid "frontend.title"
+msgstr "タイトル"
+
+msgid "frontend.description"
+msgstr "詳細"
+
+msgid "frontend.submit"
+msgstr "送信"
+
+msgid "frontend.cancel"
+msgstr "キャンセル"
+
+msgid "frontend.contact_directly"
+msgstr "または、直接ご連絡いただくこともできます:"
+
+msgid "frontend.send_email_to"
+msgstr "メール"
+
+msgid "frontend.open_github_issue"
+msgstr "GitHubでIssueを作成"
+
+msgid "frontend.chat_on_discord"
+msgstr "Discordでチャット"
+
+msgid "frontend.copying_solution_not_allowed"
+msgstr "ヒント/解答欄からのコピーは禁止されています!"
+
+msgid "frontend.no_hints_available"
+msgstr "このステップにはヒントがありません。もう一度、指示と要件を読み直してください。本当に行き詰まったときは解答を確認しても構いません。"
+
+msgid "frontend.get_hint"
+msgstr "ヒントを見る"
+
+msgid "frontend.get_another_hint"
+msgstr "別のヒントを見る"
+
+msgid "frontend.show_solution"
+msgstr "解答を表示"
+
+msgid "frontend.show_unscrambled_solution"
+msgstr "整列した解答を表示"
+
+msgid "frontend.show_shuffled_solution"
+msgstr "順番が入れ替わった解答を表示"
+
+msgid "frontend.parsons_solution_instructions"
+msgstr "上には行の順序が入れ替わった例の解答があります。ドラッグして並べ替えることができます。正しい順序を見つけるのはあなた次第で、正解かどうかをこちらからは教えません。エディタで部分的に実行して試すと、解き方の手がかりになるかもしれません。先に進むには、正しい解答を自分でエディタに入力して実行する必要があります。"
+
+msgid "frontend.are_you_sure"
+msgstr "本当によろしいですか?"
+
+msgid "frontend.yes"
+msgstr "はい"
+
+msgid "frontend.no"
+msgstr "いいえ"
+
+msgid "frontend.hidden_solution_instructions"
+msgstr "上には例の解答がありますが、隠されています。「表示」ボタンを繰り返しクリックして、少しずつ解答を表示してください。十分だと思ったところで止め、残りは自分で埋められるようにしましょう。その後、エディタに解答を入力して実行してください。あなたの解答は上のものと同じでなくても構いません。"
+
+msgid "frontend.reveal"
+msgstr "表示"
+
+msgid "frontend.output_prediction_question"
+msgstr "結果はどうなると思いますか?"
+
+msgid "frontend.output_prediction_wrong_once"
+msgstr "残念、違います。もう一度だけ挑戦できます!"
+
+msgid "frontend.output_prediction_wrong_twice"
+msgstr "残念ながら不正解です。また次に挑戦しましょう!"
+
+msgid "frontend.output_prediction_correct"
+msgstr "正解!"
+
+msgid "frontend.output_prediction_error_choice"
+msgstr "エラー"
+
+msgid "frontend.ok"
+msgstr "OK"
+
+msgid "frontend.current_page"
+msgstr "(現在)"
+
+msgid "frontend.question_wizard_intro"
+msgstr "助けが必要なら、[Stack Overflow](https://stackoverflow.com/) や [reddit](https://www.reddit.com/r/learnpython/) のように質問できるサイトがたくさんあります。これは、質の高い質問を書いて回答を得やすくするためのツールです。\n\n右側にコードを入力して実行してください。何から始めればよいか分からずコードがない場合、このツールはお手伝いできません。それでも質問はできますが、まずは [どのような質問を避けるべきか?](https://stackoverflow.com/help/dont-ask) を読んでおくと良いでしょう。\n\n質問がサーバー (例: Django や Flask)、Web リクエスト、データベース、またはここではインポートできないパッケージに関するものであれば、このツールは動作しません。ただし、今扱っているコードにそれらが含まれていても、質問の内容が必ずしもそれらについてとは限りません。一般的な Python/プログラミング/ロジックの問題なら、その部分だけを切り出しましょう。Django を使った Python であっても、やはり Python です。それができない場合は、質問する前に [最小限の再現可能な例の作り方](https://stackoverflow.com/help/minimal-reproducible-example) を読んでください。"
+
+msgid "frontend.question_wizard_expected_output"
+msgstr "よし、次にプログラムから期待する出力を下に入力しましょう。正しく動作すれば何を表示しますか? もし何も出力しないはずなら、役立つ情報が表示されるように `print()` を追加してください。\n\n終わったら、もう一度「実行」をクリックして質問を作成します。"
+
+msgid "frontend.give_feedback_instructions"
+msgstr "好きなところ、気になるところを教えてください! バグを報告する場合は、問題の詳細を教えてください:\n\n- 問題が起こる前と起きたときに何をしていましたか?\n- どのような手順で再現できますか?\n- 何が起きましたか? 本来はどうなると思っていましたか?"
+
+msgid "frontend.toc_instructions"
+msgstr "以下はコース内の各ページへのリンクです。どこからでも始められ、どの順番でも進められます。各ページでの進捗は記録されます。\n\nプログラミングが全く初めて、または不安がある場合は、最初のページから始めて、各ページが終わるたびに「次へ」をクリックするのがおすすめです。"
+
+msgid "frontend.hints_progress"
+msgstr "${totalHints} 個中 ${numHints} 個のヒントを表示"
+
+msgid "frontend.hints_and_solution"
+msgstr "ヒントと解答"
+
+msgid "frontend.new"
+msgstr "新着"
+
+msgid "frontend.repeated_frames_description"
+msgstr "${lineno} 行目の ${name} (${count} 回)"
+
+msgid "frontend.click_to_expand"
+msgstr "クリックして展開"
+
+msgid "frontend.assessment"
+msgstr "評価"
+
+msgid "frontend.assessment_description"
+msgstr "現在のステップをクリアできないコードを実行すると、このセクションで *ときどき* 問題点を説明します。"
+
+msgid "frontend.assessment_passed_tests"
+msgstr "良いニュースです。あなたのコードは ${num} 件のテストを通過しました!"
+
+msgid "frontend.assessment_lint"
+msgstr "コードで次の一般的な問題が見つかりました:"
+
+msgid "frontend.requirements"
+msgstr "要件"
+
+msgid "frontend.requirements_description"
+msgstr "上の指示に従ってコードを実行する必要があります。もしそれだけでは分かりにくい場合は、次の補足説明を参考にしてください:"
+
+msgid "frontend.exercise_requirement"
+msgstr "このステップは演習です。正しい結果を出すコードを考える必要があります。正解は一つではありません。"
+
+msgid "frontend.no_input_variables"
+msgstr "この演習には入力変数がありません。"
+
+msgid "frontend.non_function_exercise"
+msgstr "コードは最初に入力変数に値を代入するところから始めなければなりません。例:\n\n${inputs}\n\n値はあくまで例なので、別の値を使っても構いません。コードは異なる値で自動的にテストされ、一般的に正しく動作するか確認されます。"
+
+msgid "frontend.function_exercise"
+msgstr "次のように始まる関数を定義してください:\n\n${header}\n\nその後、インデントされた関数本体に実装を書きましょう。\n\n関数はさまざまな引数で呼び出され、一般的に正しく動くかテストされます。作業中に自分で関数を呼び出してテストしても構いませんが、評価には影響しません。"
+
+msgid "frontend.function_exercise_goal"
+msgstr "関数は `${print_or_return}` して正しい結果を返す必要があります。"
+
+msgid "frontend.exercise_stdin"
+msgstr "プログラムは `input()` 関数を使ってユーザーから入力を受け取る必要があります。正しく動くかテストするときは、さまざまな入力がシミュレートされます。"
+
+msgid "frontend.verbatim"
+msgstr "このステップの正解は一つだけです。正しいコードをそのまま実行しなければならないので、スペルを丁寧に確認してください。プログラムに影響しない一部の細かい違い (特定の場所のスペースなど) は無視されます。"
+
+msgid "frontend.program_in_text"
+msgstr "実行すべき正確なコードは、上の本文にひとかたまりで掲載されています。"
+
+msgid "frontend.copy_warning"
+msgstr "**ストップ!**\n\n可能な限りコードのコピー&ペーストは避けましょう。自分で入力した方が学びやすく、身に付きやすくなります。\n\nコピーが適切な場合は、簡単にコピーできるボタンが表示されます。ボタンがないときは、入力してみてください。\n\nとはいえ、強制はしません。本当に必要ならコピーしても構いません。"

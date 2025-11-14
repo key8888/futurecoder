@@ -16,6 +16,22 @@ const languages = [
     },
   },
   {
+    code: 'ja',
+    name: '日本語',
+    url: 'https://ja.futurecoder.io/',
+    visible: true,
+    firebaseConfig: {
+      apiKey: "AIzaSyAZmDPaMC92X9YFbS-Mt0p-dKHIg4w48Ow",
+      authDomain: "futurecoder-io.firebaseapp.com",
+      databaseURL: "https://futurecoder-io-default-rtdb.firebaseio.com",
+      projectId: "futurecoder-io",
+      storageBucket: "futurecoder-io.appspot.com",
+      messagingSenderId: "361930705093",
+      appId: "1:361930705093:web:dda41fee927c949daf88ac",
+      measurementId: "G-ZKCE9KY52F",
+    },
+  },
+  {
     code: 'es',
     name: 'Español',
     url: 'https://es.futurecoder.io/',
